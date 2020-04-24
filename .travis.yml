@@ -1,5 +1,5 @@
-dist: xenial
-# group: edge
+dist: focal
+group: edge
 
 script:
 - uname -a
