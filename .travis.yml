@@ -1,5 +1,5 @@
 dist: focal
-group: edge
+group: dev
 
 script:
 - uname -a
