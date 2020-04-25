@@ -4,3 +4,4 @@ dist: xenial
 script:
 - uname -a
 - ruby -v
+- ruby -v
