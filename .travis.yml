@@ -1,5 +1,5 @@
-dist: xenial
-# group: dev
+dist: focal
+group: dev
 
 arch:
 # - arm64
