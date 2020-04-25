@@ -3,3 +3,4 @@ dist: xenial
 
 script:
 - uname -a
+- ruby -v
