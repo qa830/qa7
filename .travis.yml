@@ -2,8 +2,9 @@ dist: xenial
 # group: dev
 
 arch:
-- arm64
-- s390x
+# - arm64
+# - s390x
+- amd64
 
 rvm:
 - 2.7.1
