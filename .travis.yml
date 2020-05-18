@@ -1,24 +1,25 @@
 # dist: focal
 dist: xenial
-group: dev
+# group: dev
 
 arch:
 # - arm64
 # - s390x
 # - amd64
-- ppc64le
+# - ppc64le
 
-rvm:
-- 2.7.1
-- 2.7.0
-- 2.6.6
-- 2.6.5
-- 2.6.4
-- 2.6.3
+# rvm:
+# - 2.7.1
+# - 2.7.0
+# - 2.6.6
+# - 2.6.5
+# - 2.6.4
+# - 2.6.3
 
 script:
 - uname -a
 - ruby -v
-- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
-- sleep 6000
+- java version
+# - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+# - sleep 6000
 # - ruby -v
