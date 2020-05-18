@@ -1,5 +1,7 @@
 # dist: focal
+language: scala
 dist: xenial
+jdk: openjdk8
 # group: dev
 
 arch:
