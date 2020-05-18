@@ -19,7 +19,7 @@ arch:
 script:
 - uname -a
 - ruby -v
-- java version
+- java -version
 # - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 # - sleep 6000
 # - ruby -v
