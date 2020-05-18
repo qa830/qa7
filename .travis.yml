@@ -1,28 +1,29 @@
 # dist: focal
-language: java
+# language: java
 dist: xenial
-jdk: openjdk8
-os: linux
+# jdk: openjdk8
+# os: linux
 # group: dev
 
 arch:
-# - arm64
+- arm64
 # - s390x
 # - amd64
 # - ppc64le
 
-# rvm:
-# - 2.7.1
-# - 2.7.0
-# - 2.6.6
-# - 2.6.5
+rvm:
+- 2.7.1
+- 2.7.0
+- 2.6.6
+- 2.6.5
 # - 2.6.4
 # - 2.6.3
 
 script:
 - uname -a
 - ruby -v
-- java -version
+# - java -version
+- dd if=/dev/zero of=file.txt count=1024 bs=40M
 # - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
 # - sleep 6000
 # - ruby -v
