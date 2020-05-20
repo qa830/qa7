@@ -29,7 +29,7 @@ script:
 - uname -a
 - ruby -v
 - gcc -v
-- puthon --version
+- python --version
 # - apt install gcc
 # - gcc -v
 # - java -version
