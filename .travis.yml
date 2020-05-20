@@ -3,7 +3,7 @@ language: python
 # dist: xenial
 # jdk: openjdk8
 # os: linux
-# group: edge
+group: edge
 
 # arch:
 # - arm64
