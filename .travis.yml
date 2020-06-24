@@ -1,6 +1,6 @@
 # dist: focal
 # language: python
-dist: xenial
+dist: bionic
 # jdk: openjdk8
 # os: linux
 group: edge
