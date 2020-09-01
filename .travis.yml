@@ -40,6 +40,6 @@ script:
 # - gcc -v
 # - java -version
 # - dd if=/dev/zero of=file.txt count=1024 bs=40M
-- __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
-- sleep 6000
+# - __dots() { while true ; do echo -en . ; sleep 30 ; done } ; __dots &
+# - sleep 6000
 # - ruby -v
