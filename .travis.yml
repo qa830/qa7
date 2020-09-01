@@ -36,7 +36,7 @@ script:
 # - sudo apt update
 # - sudo docker run -t centos:latest bash -c 'dnf update -y && dnf install -y wget'
 # - sudo docker run --privileged -t ubuntu:18.04 bash -c 'apt update -y && apt install -y wget'
-- docker run hello-world
+- docker run ubuntu:18.04 bash -c 'apt update -y && apt install -y wget'
 # - gcc -v
 # - java -version
 # - dd if=/dev/zero of=file.txt count=1024 bs=40M
