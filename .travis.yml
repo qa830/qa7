@@ -1,6 +1,6 @@
-dist: focal
+# dist: focal
 # language: python
-# dist: bionic
+dist: bionic
 # jdk: openjdk8
 # os: linux
 group: edge
@@ -8,9 +8,12 @@ group: edge
 arch:
 # - arm64
 # - s390x
-# - amd64
+- amd64
 - ppc64le
 
+services:
+  - postgresql
+  
 # rvm:
 # - 2.7.1
 # - 2.7.0
@@ -28,15 +31,16 @@ arch:
 # - 3.8
 
 script:
-# - uname -a
-# - ruby -v
+- uname -a
+- ruby -v
+- ps auxf
 # - gcc -v
 # - python --version
 # - rvm -v
 # - sudo apt update
 # - sudo docker run -t centos:latest bash -c 'dnf update -y && dnf install -y wget'
 # - sudo docker run --privileged -t ubuntu:18.04 bash -c 'apt update -y && apt install -y wget'
-- docker run ubuntu:18.04 bash -c 'apt update -y && apt install -y wget'
+# - docker run ubuntu:18.04 bash -c 'apt update -y && apt install -y wget'
 # - gcc -v
 # - java -version
 # - dd if=/dev/zero of=file.txt count=1024 bs=40M
