@@ -1,6 +1,7 @@
 # dist: focal
 # language: python
 dist: bionic
+virt: lxd
 # jdk: openjdk8
 # os: linux
 # group: edge
